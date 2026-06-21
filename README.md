@@ -66,14 +66,14 @@ Estimated time with GPU: ~15-20 minutes.
 
 | Metric | Baseline CNN | Quality-Aware CNN |
 |---|---|---|
-| Accuracy | 92.4% | 96.2% |
-| Precision | 1.0000 | 0.9750 |
-| Recall | 0.9000 | 0.9750 |
-| Specificity | 1.0000 | 0.9200 |
-| F1-Score | 0.9474 | 0.9750 |
-| ROC-AUC | 0.9895 | 0.9905 |
-| False Negative | 8 | 2 |
-| False Positive | 0 | 2 |
+| Accuracy | 96.2% | 96.2% |
+| Precision | 0.9634 | 0.9872 |
+| Recall | 0.9875 | 0.9625 |
+| Specificity | 0.8800 | 0.9600 |
+| F1-Score | 0.9753 | 0.9747 |
+| ROC-AUC | 0.9950 | 0.9900 |
+| False Negative | 1 | 3 |
+| False Positive | 3 | 1 |
 
 ## Model Architecture
 Custom CNN with 4 convolutional blocks:
